@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PRAFactViewController">
+            <connections>
+                <outlet property="factLabel" destination="fKQ-Fd-tIU" id="ETn-Hd-COh"/>
+                <outlet property="nextButton" destination="L8s-3y-q74" id="dtU-cN-bFU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKQ-Fd-tIU">
+                    <rect key="frame" x="20" y="200" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0r-Ey-aWi">
+                    <rect key="frame" x="0.0" y="475" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="ZN1-A4-Grn"/>
+                        <barButtonItem title="Got It!" id="L8s-3y-q74">
+                            <connections>
+                                <action selector="next:" destination="-1" id="h4X-v6-IL1"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="TUV-4r-PH8"/>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fKQ-Fd-tIU" secondAttribute="trailing" constant="20" id="9BF-et-0tX"/>
+                <constraint firstItem="M0r-Ey-aWi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Try-KA-tyy"/>
+                <constraint firstItem="fKQ-Fd-tIU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="azZ-tK-EVE"/>
+                <constraint firstAttribute="trailing" secondItem="M0r-Ey-aWi" secondAttribute="trailing" id="gc1-fz-bfc"/>
+                <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="fKQ-Fd-tIU" secondAttribute="bottom" constant="347" id="jQo-Jn-xe2"/>
+                <constraint firstItem="fKQ-Fd-tIU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="tli-O5-QBi"/>
+                <constraint firstAttribute="bottom" secondItem="M0r-Ey-aWi" secondAttribute="bottom" constant="49" id="yce-2p-1vB"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

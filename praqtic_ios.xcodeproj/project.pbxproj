@@ -19,6 +19,14 @@
 		1EA6B4E818E73273008CBF1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA6B4D018E73272008CBF1E /* UIKit.framework */; };
 		1EA6B4F018E73273008CBF1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6B4EE18E73273008CBF1E /* InfoPlist.strings */; };
 		1EA6B4F218E73273008CBF1E /* praqtic_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6B4F118E73273008CBF1E /* praqtic_iosTests.m */; };
+		1EA6B4FD18E73408008CBF1E /* PRAItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6B4FC18E73408008CBF1E /* PRAItem.m */; };
+		1EA6B50018E739AD008CBF1E /* PRAItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6B4FF18E739AD008CBF1E /* PRAItemStore.m */; };
+		1EA6B50318E73B0A008CBF1E /* PRAItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6B50218E73B0A008CBF1E /* PRAItemsViewController.m */; };
+		1EA6B50718E73BA4008CBF1E /* PRAItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6B50518E73BA4008CBF1E /* PRAItemDetailViewController.m */; };
+		1EA6B50818E73BA4008CBF1E /* PRAItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6B50618E73BA4008CBF1E /* PRAItemDetailViewController.xib */; };
+		1EF692C018E8B7450003E077 /* PRAFactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF692BE18E8B7450003E077 /* PRAFactViewController.m */; };
+		1EF692C118E8B7450003E077 /* PRAFactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF692BF18E8B7450003E077 /* PRAFactViewController.xib */; };
+		1EF692C418E8BBA20003E077 /* NSArray+PRAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF692C318E8BBA20003E077 /* NSArray+PRAAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,21 @@
 		1EA6B4ED18E73273008CBF1E /* praqtic_iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "praqtic_iosTests-Info.plist"; sourceTree = "<group>"; };
 		1EA6B4EF18E73273008CBF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1EA6B4F118E73273008CBF1E /* praqtic_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = praqtic_iosTests.m; sourceTree = "<group>"; };
+		1EA6B4FB18E73408008CBF1E /* PRAItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRAItem.h; sourceTree = "<group>"; };
+		1EA6B4FC18E73408008CBF1E /* PRAItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRAItem.m; sourceTree = "<group>"; };
+		1EA6B4FE18E739AD008CBF1E /* PRAItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRAItemStore.h; sourceTree = "<group>"; };
+		1EA6B4FF18E739AD008CBF1E /* PRAItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRAItemStore.m; sourceTree = "<group>"; };
+		1EA6B50118E73B0A008CBF1E /* PRAItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRAItemsViewController.h; sourceTree = "<group>"; };
+		1EA6B50218E73B0A008CBF1E /* PRAItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRAItemsViewController.m; sourceTree = "<group>"; };
+		1EA6B50418E73BA4008CBF1E /* PRAItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRAItemDetailViewController.h; sourceTree = "<group>"; };
+		1EA6B50518E73BA4008CBF1E /* PRAItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRAItemDetailViewController.m; sourceTree = "<group>"; };
+		1EA6B50618E73BA4008CBF1E /* PRAItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRAItemDetailViewController.xib; sourceTree = "<group>"; };
+		1EF692BD18E8B7450003E077 /* PRAFactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRAFactViewController.h; sourceTree = "<group>"; };
+		1EF692BE18E8B7450003E077 /* PRAFactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRAFactViewController.m; sourceTree = "<group>"; };
+		1EF692BF18E8B7450003E077 /* PRAFactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRAFactViewController.xib; sourceTree = "<group>"; };
+		1EF692C218E8BBA20003E077 /* NSArray+PRAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PRAAdditions.h"; sourceTree = "<group>"; };
+		1EF692C318E8BBA20003E077 /* NSArray+PRAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PRAAdditions.m"; sourceTree = "<group>"; };
+		1EF692C618E8C8FD0003E077 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +100,7 @@
 		1EA6B4C018E73272008CBF1E = {
 			isa = PBXGroup;
 			children = (
+				1EF692C618E8C8FD0003E077 /* Podfile */,
 				1EA6B4D218E73272008CBF1E /* praqtic_ios */,
 				1EA6B4EB18E73273008CBF1E /* praqtic_iosTests */,
 				1EA6B4CB18E73272008CBF1E /* Frameworks */,
@@ -107,6 +131,19 @@
 		1EA6B4D218E73272008CBF1E /* praqtic_ios */ = {
 			isa = PBXGroup;
 			children = (
+				1EF692C518E8BBAA0003E077 /* Util */,
+				1EA6B4FB18E73408008CBF1E /* PRAItem.h */,
+				1EA6B4FC18E73408008CBF1E /* PRAItem.m */,
+				1EA6B4FE18E739AD008CBF1E /* PRAItemStore.h */,
+				1EA6B4FF18E739AD008CBF1E /* PRAItemStore.m */,
+				1EA6B50118E73B0A008CBF1E /* PRAItemsViewController.h */,
+				1EA6B50218E73B0A008CBF1E /* PRAItemsViewController.m */,
+				1EA6B50418E73BA4008CBF1E /* PRAItemDetailViewController.h */,
+				1EA6B50518E73BA4008CBF1E /* PRAItemDetailViewController.m */,
+				1EF692BD18E8B7450003E077 /* PRAFactViewController.h */,
+				1EF692BE18E8B7450003E077 /* PRAFactViewController.m */,
+				1EF692BF18E8B7450003E077 /* PRAFactViewController.xib */,
+				1EA6B50618E73BA4008CBF1E /* PRAItemDetailViewController.xib */,
 				1EA6B4DB18E73272008CBF1E /* PRAAppDelegate.h */,
 				1EA6B4DC18E73272008CBF1E /* PRAAppDelegate.m */,
 				1EA6B4DE18E73272008CBF1E /* Images.xcassets */,
@@ -142,6 +179,15 @@
 				1EA6B4EE18E73273008CBF1E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EF692C518E8BBAA0003E077 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1EF692C218E8BBA20003E077 /* NSArray+PRAAdditions.h */,
+				1EF692C318E8BBA20003E077 /* NSArray+PRAAdditions.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA6B4D718E73272008CBF1E /* InfoPlist.strings in Resources */,
+				1EA6B50818E73BA4008CBF1E /* PRAItemDetailViewController.xib in Resources */,
+				1EF692C118E8B7450003E077 /* PRAFactViewController.xib in Resources */,
 				1EA6B4DF18E73272008CBF1E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA6B50318E73B0A008CBF1E /* PRAItemsViewController.m in Sources */,
+				1EA6B50018E739AD008CBF1E /* PRAItemStore.m in Sources */,
+				1EF692C018E8B7450003E077 /* PRAFactViewController.m in Sources */,
 				1EA6B4DD18E73272008CBF1E /* PRAAppDelegate.m in Sources */,
+				1EA6B4FD18E73408008CBF1E /* PRAItem.m in Sources */,
+				1EA6B50718E73BA4008CBF1E /* PRAItemDetailViewController.m in Sources */,
+				1EF692C418E8BBA20003E077 /* NSArray+PRAAdditions.m in Sources */,
 				1EA6B4D918E73272008CBF1E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +492,7 @@
 				1EA6B4F718E73273008CBF1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EA6B4F818E73273008CBF1E /* Build configuration list for PBXNativeTarget "praqtic_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +501,7 @@
 				1EA6B4FA18E73273008CBF1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
