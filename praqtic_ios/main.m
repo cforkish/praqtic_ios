@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "PRAAppDelegate.h"
+#import "PQTAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PRAAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PQTAppDelegate class]));
     }
 }
