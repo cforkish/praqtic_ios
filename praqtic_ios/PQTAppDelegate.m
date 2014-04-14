@@ -9,7 +9,7 @@
 #import "PQTAppDelegate.h"
 #import "PQTItemStore.h"
 #import "PQTItemsViewController.h"
-#import "PQTFactViewController.h"
+#import "PQTFeedItemViewController.h"
 
 @implementation PQTAppDelegate
 
@@ -53,14 +53,14 @@ willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
         navController.tabBarItem.title = @"Items";
         
         
-        PQTFactViewController *factVC = [[PQTFactViewController alloc] initWithItem:[[PQTItemStore sharedStore] nextItem]];
+        PQTFeedItemViewController *factVC = [PQTFeedItemViewController initialViewControllerForItem:[[PQTItemStore sharedStore] nextItem]];
         
         UINavigationController *feedNavCon = [[UINavigationController alloc] initWithRootViewController:factVC];
         feedNavCon.restorationIdentifier = NSStringFromClass([feedNavCon class]);
         feedNavCon.tabBarItem.title = @"Feed";
         
         UITabBarController *tbc = [[UITabBarController alloc] init];
-        tbc.viewControllers = @[feedNavCon, navController];
+        tbc.viewControllers = @[navController, feedNavCon];
         tbc.restorationIdentifier = NSStringFromClass([tbc class]);
         
         

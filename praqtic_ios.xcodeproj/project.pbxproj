@@ -24,14 +24,16 @@
 		1EA6B50318E73B0A008CBF1E /* PQTItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6B50218E73B0A008CBF1E /* PQTItemsViewController.m */; };
 		1EA6B50718E73BA4008CBF1E /* PQTItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6B50518E73BA4008CBF1E /* PQTItemDetailViewController.m */; };
 		1EA6B50818E73BA4008CBF1E /* PQTItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6B50618E73BA4008CBF1E /* PQTItemDetailViewController.xib */; };
-		1EF692C018E8B7450003E077 /* PQTFactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF692BE18E8B7450003E077 /* PQTFactViewController.m */; };
-		1EF692C118E8B7450003E077 /* PQTFactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF692BF18E8B7450003E077 /* PQTFactViewController.xib */; };
+		1EF692C018E8B7450003E077 /* PQTFeedItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF692BE18E8B7450003E077 /* PQTFeedItemViewController.m */; };
+		1EF692C118E8B7450003E077 /* PQTFeedItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF692BF18E8B7450003E077 /* PQTFeedItemViewController.xib */; };
 		1EF692C418E8BBA20003E077 /* NSArray+PQTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF692C318E8BBA20003E077 /* NSArray+PQTAdditions.m */; };
 		1EF692CA18E8E3410003E077 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF692C918E8E3410003E077 /* libicucore.dylib */; };
 		1EF692CC18E8E3510003E077 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF692CB18E8E3510003E077 /* libc++.dylib */; };
 		1EF692CE18E8E35B0003E077 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF692CD18E8E35B0003E077 /* CFNetwork.framework */; };
 		1EF692D018E8E3660003E077 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF692CF18E8E3660003E077 /* Security.framework */; };
 		1EF692D218E8E37A0003E077 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF692D118E8E37A0003E077 /* SystemConfiguration.framework */; };
+		1EF8CFBF18FB2B0200BD6A7A /* PQTFactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF8CFBE18FB2B0200BD6A7A /* PQTFactViewController.m */; };
+		1EF8CFC218FB329F00BD6A7A /* PQTQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF8CFC118FB329F00BD6A7A /* PQTQuestionViewController.m */; };
 		B4C0C1E6A1A746198C7FB480 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A655D16474F4A489CFC23DA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -72,9 +74,9 @@
 		1EA6B50418E73BA4008CBF1E /* PQTItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQTItemDetailViewController.h; sourceTree = "<group>"; };
 		1EA6B50518E73BA4008CBF1E /* PQTItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQTItemDetailViewController.m; sourceTree = "<group>"; };
 		1EA6B50618E73BA4008CBF1E /* PQTItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PQTItemDetailViewController.xib; sourceTree = "<group>"; };
-		1EF692BD18E8B7450003E077 /* PQTFactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQTFactViewController.h; sourceTree = "<group>"; };
-		1EF692BE18E8B7450003E077 /* PQTFactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQTFactViewController.m; sourceTree = "<group>"; };
-		1EF692BF18E8B7450003E077 /* PQTFactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PQTFactViewController.xib; sourceTree = "<group>"; };
+		1EF692BD18E8B7450003E077 /* PQTFeedItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQTFeedItemViewController.h; sourceTree = "<group>"; };
+		1EF692BE18E8B7450003E077 /* PQTFeedItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQTFeedItemViewController.m; sourceTree = "<group>"; };
+		1EF692BF18E8B7450003E077 /* PQTFeedItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PQTFeedItemViewController.xib; sourceTree = "<group>"; };
 		1EF692C218E8BBA20003E077 /* NSArray+PQTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PQTAdditions.h"; sourceTree = "<group>"; };
 		1EF692C318E8BBA20003E077 /* NSArray+PQTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PQTAdditions.m"; sourceTree = "<group>"; };
 		1EF692C618E8C8FD0003E077 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
@@ -83,6 +85,10 @@
 		1EF692CD18E8E35B0003E077 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		1EF692CF18E8E3660003E077 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		1EF692D118E8E37A0003E077 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1EF8CFBD18FB2B0200BD6A7A /* PQTFactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQTFactViewController.h; sourceTree = "<group>"; };
+		1EF8CFBE18FB2B0200BD6A7A /* PQTFactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQTFactViewController.m; sourceTree = "<group>"; };
+		1EF8CFC018FB329F00BD6A7A /* PQTQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQTQuestionViewController.h; sourceTree = "<group>"; };
+		1EF8CFC118FB329F00BD6A7A /* PQTQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQTQuestionViewController.m; sourceTree = "<group>"; };
 		EC23CDB9BF274FD382C9859F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,9 +173,7 @@
 				1EA6B50418E73BA4008CBF1E /* PQTItemDetailViewController.h */,
 				1EA6B50518E73BA4008CBF1E /* PQTItemDetailViewController.m */,
 				1EA6B50618E73BA4008CBF1E /* PQTItemDetailViewController.xib */,
-				1EF692BD18E8B7450003E077 /* PQTFactViewController.h */,
-				1EF692BE18E8B7450003E077 /* PQTFactViewController.m */,
-				1EF692BF18E8B7450003E077 /* PQTFactViewController.xib */,
+				1EF8CFB718FB1CCB00BD6A7A /* Feed */,
 				1EA6B4DB18E73272008CBF1E /* PQTAppDelegate.h */,
 				1EA6B4DC18E73272008CBF1E /* PQTAppDelegate.m */,
 				1EA6B4DE18E73272008CBF1E /* Images.xcassets */,
@@ -214,6 +218,20 @@
 				1EF692C318E8BBA20003E077 /* NSArray+PQTAdditions.m */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		1EF8CFB718FB1CCB00BD6A7A /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				1EF692BD18E8B7450003E077 /* PQTFeedItemViewController.h */,
+				1EF692BE18E8B7450003E077 /* PQTFeedItemViewController.m */,
+				1EF692BF18E8B7450003E077 /* PQTFeedItemViewController.xib */,
+				1EF8CFBD18FB2B0200BD6A7A /* PQTFactViewController.h */,
+				1EF8CFBE18FB2B0200BD6A7A /* PQTFactViewController.m */,
+				1EF8CFC018FB329F00BD6A7A /* PQTQuestionViewController.h */,
+				1EF8CFC118FB329F00BD6A7A /* PQTQuestionViewController.m */,
+			);
+			name = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +280,13 @@
 		1EA6B4C118E73272008CBF1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = PRA;
+				CLASSPREFIX = PQT;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Praqtic;
 				TargetAttributes = {
+					1EA6B4C818E73272008CBF1E = {
+						DevelopmentTeam = N6LPGP6RYT;
+					};
 					1EA6B4E318E73273008CBF1E = {
 						TestTargetID = 1EA6B4C818E73272008CBF1E;
 					};
@@ -296,7 +317,7 @@
 			files = (
 				1EA6B4D718E73272008CBF1E /* InfoPlist.strings in Resources */,
 				1EA6B50818E73BA4008CBF1E /* PQTItemDetailViewController.xib in Resources */,
-				1EF692C118E8B7450003E077 /* PQTFactViewController.xib in Resources */,
+				1EF692C118E8B7450003E077 /* PQTFeedItemViewController.xib in Resources */,
 				1EA6B4DF18E73272008CBF1E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,8 +372,10 @@
 			files = (
 				1EA6B50318E73B0A008CBF1E /* PQTItemsViewController.m in Sources */,
 				1EA6B50018E739AD008CBF1E /* PQTItemStore.m in Sources */,
-				1EF692C018E8B7450003E077 /* PQTFactViewController.m in Sources */,
+				1EF692C018E8B7450003E077 /* PQTFeedItemViewController.m in Sources */,
 				1EA6B4DD18E73272008CBF1E /* PQTAppDelegate.m in Sources */,
+				1EF8CFC218FB329F00BD6A7A /* PQTQuestionViewController.m in Sources */,
+				1EF8CFBF18FB2B0200BD6A7A /* PQTFactViewController.m in Sources */,
 				1EA6B4FD18E73408008CBF1E /* PQTItem.m in Sources */,
 				1EA6B50718E73BA4008CBF1E /* PQTItemDetailViewController.m in Sources */,
 				1EF692C418E8BBA20003E077 /* NSArray+PQTAdditions.m in Sources */,
@@ -430,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -463,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -476,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/External",
@@ -483,7 +507,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "praqtic_ios/praqtic_ios-Prefix.pch";
 				INFOPLIST_FILE = "praqtic_ios/praqtic_ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9023CDA2-02C4-48FF-9AF4-11C379EA2D96";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -494,6 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/External",
@@ -501,7 +529,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "praqtic_ios/praqtic_ios-Prefix.pch";
 				INFOPLIST_FILE = "praqtic_ios/praqtic_ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C50F4AD9-212B-4EB5-A82C-ED37BC7EA8BE";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

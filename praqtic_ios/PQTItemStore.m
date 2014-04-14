@@ -84,7 +84,7 @@ static NSString * const FirebaseRoot =  @"https://praqtic.firebaseIO.com";
 {
     __weak PQTItemStore *weakSelf = self;
     [ref observeEventType:FEventTypeChildAdded withBlock:^(FDataSnapshot *snapshot) {
-        NSLog(@"Child added with snapshot: %@", snapshot);
+//        NSLog(@"Child added with snapshot: %@", snapshot);
         if (weakSelf) {
             NSString *itemId = snapshot.name;
             __block PQTItem *item = [PQTItem loadFromRoot:self.root withItemId:itemId block:nil];
@@ -102,7 +102,7 @@ static NSString * const FirebaseRoot =  @"https://praqtic.firebaseIO.com";
 //            NSString* firstName = snapshot.value[@"name"][@"first"];
 //            NSString* lastName = snapshot.value[@"name"][@"last"];
 //            NSLog(@"User julie's full name is: %@ %@", firstName, lastName);
-            NSLog(@"Loaded items: %@", snapshot);
+//            NSLog(@"Loaded items: %@", snapshot);
         }
     }];
 }
